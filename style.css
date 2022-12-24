@@ -632,6 +632,9 @@ input:focus,textarea:focus{
     .projectLinks{
       bottom: 14%;
     }
+    .clients{
+      padding: 200px 0;
+    }
     .clientsTitle{
       left: 40%;
     }
@@ -639,11 +642,50 @@ input:focus,textarea:focus{
       font-size: 1.5rem;
       width: 95vw;
     }
+    .team{
+      display: block;
+      padding: 200px 0 100px 0;
+      
+    }
     .teamTitle{
-      left: 43%;
+      left: 40%;
     }
     .team-capiton{
-
+      left: 15%;
+      font-size: 1.6rem;
+    }
+    .team-capiton{
+      left: 23%;
+    }
+    .team-profile{
+      display: block;
+      margin: 0 auto;
+    }
+    .team-member{
+      margin: 60px auto;
+    
+    }
+    .contact{
+      padding: 200px 0;
+    }
+    .contact p{
+      left: 39%;
+    }
+    .input-form{
+      width: 95vw;
+    }
+    .vw250px{
+      display: block;
+      width: 99%;
+    }
+    .copyRight{
+      flex-direction: column;
+    }
+    #contactProf{
+      margin: 0 auto;
+    }
+    .address{
+      margin: 15px auto;
     }
   }
 }
