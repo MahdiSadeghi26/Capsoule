@@ -1,0 +1,354 @@
+@media screen and (max-width: $desktop-normal) {
+  .container {
+    .title {
+      font-size: 20px;
+    }
+    .list-item,
+    .pipe {
+      margin: 8px;
+    }
+    .servicesCaption {
+      font-size: 2.4rem;
+    }
+    .featuresTitle {
+      font-size: 2rem;
+    }
+    .fbox {
+      width: 120px;
+    }
+    .project {
+      .project1 {
+        color: $primary-white;
+      }
+      .projectPipe {
+        left: 8%;
+      }
+      .projcetTitle1,
+      .project1 {
+        left: 9%;
+      }
+      .secondPipe {
+        right: 15%;
+        bottom: 12%;
+      }
+      .projectLinks {
+        bottom: 15%;
+        right: 3%;
+      }
+      .slider-link {
+        width: 350px;
+      }
+    }
+    .clients {
+      padding: 200px 0;
+      align-items: center;
+      .clientsTitle {
+        left: 45%;
+      }
+      .clientLogo {
+        justify-content: center;
+      }
+      .clientLogo img {
+        width: 120px;
+        height: 35px;
+        margin: 0 10px;
+      }
+    }
+    .team {
+      padding: 150px 0;
+
+      .teamTitle {
+        top: 50px;
+        left: 46%;
+      }
+      .team-capiton {
+        left: 40%;
+        top: 80px;
+      }
+      .team-profile {
+        align-self: center;
+        width: 85vw;
+        justify-content: space-around;
+      }
+      .team-member {
+        margin: 0 20px;
+      }
+      .team-member img {
+        width: 95px;
+      }
+      .memberName {
+        font-size: 1rem;
+      }
+    }
+    .input-form {
+      width: 500px;
+    }
+    .vw250px {
+      width: 48%;
+    }
+    textarea {
+      width: 95%;
+    }
+    .submit-btn {
+      padding: 10px 0;
+    }
+  }
+}
+@media screen and (max-width: $desktop-small) {
+  .container {
+    .landing-section {
+      .title {
+        font-size: 18px;
+      }
+    }
+    .services {
+      .serviceTitle {
+        left: 46%;
+      }
+      .servicesCaption {
+        font-size: 2rem;
+      }
+    }
+    .project {
+      padding: 90px 0;
+      .projectPipe {
+        top: 15%;
+      }
+      .projcetTitle1 {
+        left: 8%;
+        font-size: 14px;
+      }
+
+      .slider {
+        height: 90%;
+        img {
+          width: 80%;
+          height: 75%;
+        }
+      }
+      .slider {
+        display: flex;
+        justify-content: center;
+      }
+      .project1 {
+        left: 8%;
+        color: $primary-white;
+        font-size: 2.3rem;
+      }
+      .secondPipe {
+        right: 18%;
+        bottom: 10px;
+      }
+      .projectLinks {
+        bottom: 25px;
+        right: 2%;
+      }
+      .slider-link {
+        position: absolute;
+        bottom: 7%;
+      }
+    }
+    .clientsCaption {
+      font-size: 1.6rem;
+    }
+    .team-capiton {
+      left: 37%;
+    }
+  }
+}
+@media screen and (max-width: $tablet-small) {
+  .services {
+    padding: 150px 0 80px 0;
+  }
+  .servicesCaption {
+    width: 95%;
+    font-size: 1.7rem;
+  }
+  .features {
+    margin: 40px 15px;
+    justify-content: space-around;
+  }
+  .fbox {
+    width: calc(calc(100% / 3) - 30px);
+  }
+  .featuresTitle {
+    font-size: 1.5rem;
+  }
+  .fbox span {
+    text-align: center;
+  }
+  .secondPipe {
+    bottom: 10px;
+    right: 20%;
+  }
+  .projectLinks {
+    bottom: 25px;
+  }
+  .clientLogo {
+    flex-wrap: wrap;
+  }
+  .clientLogo img {
+    margin: 15px 15px;
+  }
+  .visit-card {
+    width: 95vw;
+  }
+  .visitCaption {
+    width: auto;
+  }
+  .vCaption {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: $mobile) {
+  .container {
+    .landing-section {
+      .border {
+        width: 80vw;
+      }
+      .title {
+        font-size: 15px;
+      }
+      .list-item {
+        margin: 5px;
+      }
+    }
+    .services {
+      padding: 150px 0 0px 0;
+      .support {
+        p {
+          font-size: 15px;
+        }
+      }
+      .profile {
+        top: 15px;
+        left: 10px;
+      }
+
+      .serviceTitle {
+        left: 43%;
+      }
+      .servicesCaption {
+        font-size: 1.4rem;
+      }
+      .features {
+        display: block;
+      }
+      .fbox {
+        display: block;
+        margin: 0 auto;
+        width: 50vw;
+      }
+      .fbox span {
+        text-align: left;
+      }
+    }
+
+    .project {
+      padding: 90px 0 170px 0;
+      .slider {
+        img {
+          width: 90vw;
+          height: 300px;
+        }
+      }
+      .projectPipe {
+        top: 10px;
+      }
+      .projcetTitle1 {
+        top: 150px;
+        font-size: 13px;
+      }
+      .project1 {
+        top: 120px;
+        font-size: 1.7rem;
+      }
+      .secondPipe {
+        bottom: 10%;
+        right: 28%;
+      }
+      .slider-link {
+        bottom: 5%;
+      }
+      .projectLinks {
+        bottom: 14%;
+      }
+    }
+
+    .clients {
+      padding: 150px 0 100px 0;
+      .clientsTitle {
+        left: 40%;
+      }
+      .clientsCaption {
+        font-size: 1.5rem;
+        width: 95vw;
+      }.clientLogo{
+        display: inline-block;
+        .Logo{
+          display: block;
+        }
+        img{
+          margin: 20px 0;
+        }
+      }
+      .visit-card{
+        width: 90vw;
+        .visitCaption{
+          width: auto;
+        }
+      }
+    }
+    
+    .team {
+      display: block;
+      padding: 80px 0 80px 0;
+      .teamTitle {
+        left: 40%;
+      }
+      .team-capiton {
+        left: 30%;
+        font-size: 1.6rem;
+      }
+      .team-profile {
+        display: block;
+        margin: 0 auto;
+      }
+      .team-member {
+        margin: 60px auto;
+      }
+    }
+    
+    .contact {
+      padding: 100px 0;
+       p {
+        left: 39%;
+        top: 40px;
+      }
+      input{
+        font-size: 14px;
+        color: $primary-white;
+      }
+      .input-form {
+        width: 90vw;
+      }
+      .vw250px {
+        display: block;
+        width: 99%;
+      }
+      .copyRight {
+        flex-direction: column;
+      }
+      #contactProf {
+        margin: 0 auto;
+      }
+      .address {
+        margin: 15px auto;
+      }
+      .email{
+        margin: 20px auto;
+      }
+    }
+    
+  }
+}
