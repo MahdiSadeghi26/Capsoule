@@ -1,0 +1,79 @@
+.contact {
+  background-color: #202020;
+  padding: 200px 200px 50px 200px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .contactTitle {
+    position: absolute;
+    left: 46%;
+    top: 120px;
+    color: $primary-yellow;
+    font-size: 1.8rem;
+  }
+  .contact .teamTitle,
+  .centerPipe {
+    align-self: center;
+  }
+  .input-form {
+    align-self: center;
+    width: 600px;
+    background-color: #181818;
+    padding: 20px;
+  }
+  input,
+  textarea {
+    background-color: #181818;
+    outline: none;
+    border: none;
+    color: aliceblue;
+    padding: 10px 15px;
+    border-bottom: 1px solid lightgray;
+    &:focus {
+      outline: none;
+      border-radius: 15px;
+      border: 2px solid #f7ac53;
+    }
+  }
+  .vw250px {
+    width: 270px;
+    margin: 20px 0;
+  }
+  .submit-btn {
+    background-color: #f7ac53;
+    width: 100%;
+    margin: 20px 0;
+    border: none;
+    padding: 20px 0;
+    border-radius: 25px;
+  }
+  #contactProf {
+    border: 3px solid #f7ac53;
+    padding: 8px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    color: #f7ac53;
+    font-size: 20px;
+    /* position: absolute; */
+    align-self: flex-start;
+    /* bottom: 30px; */
+    /* left: 40%; */
+    margin: 0 15px;
+  }
+  .copyRight {
+    width: 600px;
+    align-self: center;
+    margin: 50px 0;
+    display: flex;
+    color: aliceblue;
+    justify-content: space-between;
+  }
+  .address {
+    width: 200px;
+  }
+  .address p {
+    font-size: 0.7rem;
+  }
+}
