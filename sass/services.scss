@@ -1,0 +1,92 @@
+.services {
+  display: flex;
+  flex-direction: column;
+  padding: 150px 150px 80px 150px;
+  background-color: #202020;
+  position: relative;
+
+  .header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  .profile {
+    border: 3px solid #f7ac53;
+    padding: 8px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    color: #f7ac53;
+    font-size: 20px;
+    position: absolute;
+    align-self: flex-start;
+    top: 30px;
+    left: 15px;
+    margin: 0 15px;
+  }
+  .support {
+    color: aliceblue;
+    align-self: flex-end;
+    margin: 0 10px;
+    position: absolute;
+    right: 15px;
+    top: 30px;
+    span {
+      color: #f7ac53;
+    }
+  }
+  .centerPipe {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    align-self: center;
+    width: 3px;
+    height: 100px;
+    background-color: #f7ac53;
+  }
+  .serviceTitle {
+    color: #f7ac53;
+    align-self: center;
+    font-size: 18px;
+    position: absolute;
+    left: 48%;
+    top: 110px;
+  }
+  .servicesCaption {
+    width: 700px;
+    text-align: center;
+    font-size: 2.7rem;
+    color: aliceblue;
+    align-self: center;
+  }
+  .fbox {
+    width: 150px;
+    height: 200px;
+    p {
+      color: aliceblue;
+    }
+    span {
+      font-size: 0.7rem;
+      color: aliceblue;
+      text-align: left;
+    }
+  }
+  .features {
+    margin: 50px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .featureIcon {
+    color: #f7ac53;
+    font-size: 1.5rem;
+  }
+  .featuresTitle {
+    color: aliceblue;
+    font-size: 2.5rem;
+  }
+
+  .getDetail {
+    padding: 10px 0;
+    font-size: 1rem;
+  }
+}
