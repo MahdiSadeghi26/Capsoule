@@ -1,0 +1,80 @@
+.clients{
+    display: flex;
+    flex-direction: column;
+    padding: 200px 200px 170px 200px;
+    background-color:#202020 ;
+    position: relative;
+    color: $primary-white;
+  
+  .clientsTitle{
+    color: #f7ac53;
+    position: absolute;
+    left: 47%;
+    font-size: 1.1rem;
+    top: 120px;
+  }
+  .clientsCaption{
+    width: 700px;
+    text-align: center;
+    font-size: 2rem;
+    align-self: center;
+  }
+  .clientLogo{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    img{
+       filter: grayscale(100%);
+       width: 160px;
+       height: 40px;
+     }
+  }
+  #master{
+    width: 100px;
+    height: 40px;
+  }
+  #safeforce{
+    width: 130px;
+    height: 55px;
+  }
+  .visit-card{
+    width: 800px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: #181818;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .prof{
+    width: 86px;
+    height: 60px;
+    margin: 20px 0;
+    align-self: center;
+    border-radius: 80px 80px 55px 55px;
+  }
+  .visitCaption{
+    width: 700px;
+    align-self: center;
+  }
+  .vCaption{
+    text-align: center;
+    font-size: .9rem;
+  }
+  .author{
+    width: 90%;
+    margin: 20px 0;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  .grayPipe{
+    width: 30%;
+    background-color: #474747;
+    height: 2px;
+  }
+  .signuture{
+    color: #bababa;
+    align-self: center;
+  }
+}
