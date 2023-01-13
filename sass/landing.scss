@@ -1,0 +1,33 @@
+.landing-section {
+    width: 100%;
+    overflow-y: none;
+    height: 100vh;
+    background: url("../img/bkg.jpg") fixed center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+  .border {
+    width: 600px;
+    height: 200px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+  }
+  .title {
+    color: rgb(240, 248, 255);
+    font-size: 22px;
+    text-align: center;
+  }
+  .option-list {
+    color: aliceblue;
+  }
+  .list-item{
+      list-style: none;
+      display: inline-block;
+      margin: 15px 10px;
+    }
+    
+}
